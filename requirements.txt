@@ -1,0 +1,3 @@
+# This project currently uses only Python's standard library:
+# random, string
+# No additional packages are required at the moment.
