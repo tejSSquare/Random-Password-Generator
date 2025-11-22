@@ -10,7 +10,7 @@ git clone https://github.com/tejSSquare/password-generator
 cd Random-Password-Generator
 
 2. Run the script
-python generate_passwords.py
+python generate_passwords.py <no. of passwords> <length of password>
 
 3.Customize the number of passwords and their length by editing the variables in the script:
 num_passwords_to_generate = 5
@@ -31,3 +31,4 @@ No external packages required
 5.License
 
 This project is open-source and available under the MIT License.
+
