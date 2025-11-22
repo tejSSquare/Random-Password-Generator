@@ -7,7 +7,7 @@ This Python script generates a list of random passwords.
 1. Clone the repository:
 ```bash
 git clone https://github.com/tejSSquare/password-generator
-cd password-generator
+cd Random-Password-Generator
 
 2. Run the script
 python generate_passwords.py
@@ -29,4 +29,5 @@ Python 3.x
 No external packages required
 
 5.License
+
 This project is open-source and available under the MIT License.
