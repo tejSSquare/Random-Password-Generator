@@ -1,5 +1,6 @@
 import random
 import string
+import sys
 
 def generate_password_list(num_passwords, password_length):
     """
@@ -22,8 +23,16 @@ def generate_password_list(num_passwords, password_length):
 
 def main():
     """Example usage when running the script directly."""
-    num_passwords_to_generate = 5
-    desired_password_length = 12
+    try:
+        num_passwords_to_generate = int(sys.argv[1])
+    except:
+        num_passwords_to_generate = 5
+        
+    try:
+        desired_password_length = int(sys.argv[2])
+    except:
+        desired_password_length = 12    
+        
     generated_password_list = generate_password_list(num_passwords_to_generate, desired_password_length)
 
     print(f"Generated {num_passwords_to_generate} passwords of length {desired_password_length}:")
